@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-# coding: utf-8
-# By Sandaru Ashen: https://github.com/Sl-Sanda-Ru,https://t.me/Sl_Sanda_Ru
+# coding: KrishnaGupta
+# By KrishnaGupta: https://github.com/GuptajiiHacker 
 
 import os
 import subprocess
@@ -50,7 +50,7 @@ def logo() -> None:
         color2 = random.choice(COLORS)
     print(color1 + '_' * os.get_terminal_size().columns, end='\n'*2)
     print(color2 + pyfiglet.figlet_format('Temp\nSMS', font=font, justify='center', width=os.get_terminal_size().columns), end='')
-    msg = '[+] By Sandaru Ashen'
+    msg = '[+] By KrishnaGupta'
     _ = int(os.get_terminal_size().columns/2)
     _ -= int(len(msg)/2)
     print(color1 + '_' * _ + LIYEL + msg + color1 + '_' * _ + '\n')
