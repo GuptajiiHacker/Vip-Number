@@ -1,7 +1,4 @@
 #!/usr/bin/env python
-# coding: KrishnaGupta
-# By KrishnaGupta: https://github.com/GuptajiiHacker 
-
 import os
 import subprocess
 import random
